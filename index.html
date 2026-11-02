@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Online resume and portfolio of Jerone L, Computer Science and Engineering student." />
+  <meta name="theme-color" content="#0b1220" />
+  <title>Jerone L | Online Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Jerone L home"><span class="brand-mark">J</span><span>Jerone L<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact" class="nav-contact">Contact ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE & ENGINEERING STUDENT</div>
+          <h1>Hi, I'm <span class="gradient-text">Jerone L.</span><br>Building ideas into<br><span class="outline-text">digital experiences.</span></h1>
+          <p class="hero-description">I’m a CSE student interested in web development, Java programming, and practical technology projects. I enjoy learning by building useful things.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+            <button class="button button-secondary" id="printResume">Download / Print CV <span>↓</span></button>
+          </div>
+          <div class="hero-meta">
+            <div><span class="meta-number">03+</span><span class="meta-label">Project builds</span></div>
+            <div class="meta-divider"></div>
+            <div><span class="meta-number">CSE</span><span class="meta-label">Undergraduate</span></div>
+            <div class="meta-divider"></div>
+            <div><span class="meta-number">Curious</span><span class="meta-label">By nature</span></div>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Decorative profile card">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="profile-card">
+            <div class="profile-top"><span class="tiny-dot"></span><span class="tiny-dot"></span><span class="tiny-dot"></span><span class="card-label">PROFILE / 001</span></div>
+            <div class="avatar">JL</div>
+            <h2>Jerone L</h2>
+            <p>Student Developer</p>
+            <div class="profile-line"></div>
+            <div class="profile-stat"><span>Focus</span><strong>Web · Java · AI</strong></div>
+            <div class="profile-stat"><span>Mindset</span><strong>Learn. Build. Improve.</strong></div>
+            <div class="profile-chip"><span class="status-dot"></span> Open to opportunities</div>
+          </div>
+          <div class="floating-tag tag-code"><span>&lt;/&gt;</span> Clean code</div>
+          <div class="floating-tag tag-lightbulb">✦ Ideas into action</div>
+          <div class="hero-glow"></div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section section-muted" id="about">
+      <div class="container two-column">
+        <div>
+          <p class="section-kicker">01 / ABOUT ME</p>
+          <h2 class="section-title">Curiosity is where<br>every project <span class="gradient-text">starts.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p>I’m a Computer Science and Engineering student at Karunya University. I’m developing my skills in programming and web technologies while working on projects that connect software with real-world needs.</p>
+          <p>From Java applications to embedded systems and AI-focused prototypes, I like exploring a problem, breaking it into smaller steps, and turning the idea into something people can try.</p>
+          <div class="info-grid">
+            <div class="info-item"><span>EDUCATION</span><strong>B.Tech — CSE</strong></div>
+            <div class="info-item"><span>UNIVERSITY</span><strong>Karunya University</strong></div>
+            <div class="info-item"><span>INTERESTS</span><strong>Web · Java · IoT · AI</strong></div>
+            <div class="info-item"><span>LOCATION</span><strong>Tamil Nadu, India</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="section-kicker">02 / TOOLKIT</p>
+        <div class="section-heading-row"><h2 class="section-title">Skills I'm <span class="gradient-text">growing.</span></h2><p class="section-note">A practical toolkit built through coursework, experiments, and projects.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon">⌘</div><h3>Programming</h3><p>Java · Python · JavaScript</p><div class="skill-bar"><span style="width:72%"></span></div><span class="skill-caption">Building fundamentals</span></article>
+          <article class="skill-card"><div class="skill-icon">◈</div><h3>Web Development</h3><p>HTML · CSS · React basics</p><div class="skill-bar"><span style="width:68%"></span></div><span class="skill-caption">UI and responsive layouts</span></article>
+          <article class="skill-card"><div class="skill-icon">▤</div><h3>Database</h3><p>PostgreSQL · SQL</p><div class="skill-bar"><span style="width:62%"></span></div><span class="skill-caption">Queries and data modelling</span></article>
+          <article class="skill-card"><div class="skill-icon">⌁</div><h3>Exploration</h3><p>IoT · AI concepts · GitHub</p><div class="skill-bar"><span style="width:58%"></span></div><span class="skill-caption">Learning through projects</span></article>
+        </div>
+        <p class="small-note">Skill bars are visual indicators only. Edit them to match your current level before publishing.</p>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="projects">
+      <div class="container">
+        <p class="section-kicker">03 / SELECTED WORK</p>
+        <div class="section-heading-row"><h2 class="section-title">Things I've <span class="gradient-text">built.</span></h2><p class="section-note">A selection of academic and personal project work.</p></div>
+        <div class="projects-grid">
+          <article class="project-card project-featured">
+            <div class="project-visual visual-fraud"><div class="node node-a"></div><div class="node node-b"></div><div class="node node-c"></div><div class="node node-d"></div><div class="node node-e"></div><div class="network-line line-a"></div><div class="network-line line-b"></div><div class="network-line line-c"></div><div class="visual-caption">GRAPH INTELLIGENCE / 01</div></div>
+            <div class="project-body"><div class="project-topline"><span class="project-type">HACKATHON CONCEPT</span><span class="project-index">01</span></div><h3>FraudGraph AI</h3><p>A fraud-intelligence concept that explores transaction risk scoring and suspicious account connections using graph-based patterns and explainable evidence.</p><div class="tag-list"><span>Python</span><span>Graph ML</span><span>Anomaly Detection</span></div><span class="project-footnote">Hacknex 2026 · In development</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-recipe"><div class="recipe-window"><div class="recipe-sidebar"></div><div class="recipe-content"><i></i><i></i><i></i><b></b></div></div><div class="visual-caption">JAVA APPLICATION / 02</div></div>
+            <div class="project-body"><div class="project-topline"><span class="project-type">DESKTOP APP</span><span class="project-index">02</span></div><h3>Smart Recipe Manager</h3><p>A Java Swing application concept for searching, adding, and saving favourite recipes, with PostgreSQL for data storage.</p><div class="tag-list"><span>Java Swing</span><span>PostgreSQL</span><span>JDBC</span></div><span class="project-footnote">Academic project</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-rail"><div class="rail-track"></div><div class="rail-signal"></div><div class="rail-gate"></div><div class="rail-train">▰</div><div class="visual-caption">EMBEDDED SYSTEM / 03</div></div>
+            <div class="project-body"><div class="project-topline"><span class="project-type">IOT / EMBEDDED</span><span class="project-index">03</span></div><h3>Automatic Railway Gate</h3><p>A sensor-based prototype that detects a train approaching and controls a servo-operated railway gate.</p><div class="tag-list"><span>Arduino</span><span>IR Sensors</span><span>Servo Motor</span></div><span class="project-footnote">Hardware prototype</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-prison"><div class="scan-frame"><span></span><span></span><span></span><b>AI</b></div><div class="visual-caption">RESEARCH PROTOTYPE / 04</div></div>
+            <div class="project-body"><div class="project-topline"><span class="project-type">RESEARCH</span><span class="project-index">04</span></div><h3>Explainable AI for Incident Detection</h3><p>A proposed research prototype exploring video-based incident detection and explainable support for prison review and rehabilitation.</p><div class="tag-list"><span>AI</span><span>Computer Vision</span><span>Streamlit</span></div><span class="project-footnote">Research prototype · Proposed work</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container two-column">
+        <div><p class="section-kicker">04 / JOURNEY</p><h2 class="section-title">Learning by<br><span class="gradient-text">doing.</span></h2><p class="section-note journey-note">My current journey combines academic foundations with hands-on experimentation.</p></div>
+        <div class="timeline">
+          <article class="timeline-item"><div class="timeline-marker"></div><span class="timeline-date">2026 — PRESENT</span><h3>B.Tech, Computer Science and Engineering</h3><p class="timeline-place">Karunya University</p><p>Coursework, technical labs, project development, and preparation for software engineering opportunities.</p></article>
+          <article class="timeline-item"><div class="timeline-marker"></div><span class="timeline-date">PROJECT EXPERIENCE</span><h3>Python Development Internship</h3><p class="timeline-place">DE2DE Technologies · One-month internship</p><p>Worked on beginner-friendly Python applications such as a number guessing game, password generator, alarm clock, and weather app.</p></article>
+          <article class="timeline-item"><div class="timeline-marker"></div><span class="timeline-date">2026</span><h3>Hackathon & Research Exploration</h3><p class="timeline-place">Hacknex 2026 · Academic research</p><p>Exploring explainable AI, fraud detection concepts, and practical problem-solving through team projects.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card">
+        <div><p class="section-kicker">05 / CONTACT</p><h2 class="section-title">Have an idea?<br><span class="gradient-text">Let's connect.</span></h2><p class="contact-copy">I'm interested in learning opportunities, collaborations, and projects that solve real problems.</p></div>
+        <div class="contact-links">
+          <a href="mailto:your.email@example.com" class="contact-link"><span class="contact-icon">✉</span><span><small>EMAIL</small><strong>your.email@example.com</strong></span><span class="arrow">↗</span></a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" class="contact-link"><span class="contact-icon">in</span><span><small>LINKEDIN</small><strong>Connect professionally</strong></span><span class="arrow">↗</span></a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer" class="contact-link"><span class="contact-icon">⌘</span><span><small>GITHUB</small><strong>Explore code projects</strong></span><span class="arrow">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">J</span><span>Jerone L<span class="brand-dot">.</span></span></a><span>Designed & built with curiosity.</span><a href="#home" class="back-top">BACK TO TOP ↑</a></div><div class="container footer-bottom">© <span id="year"></span> Jerone L. Update the placeholder contact links before publishing.</div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
